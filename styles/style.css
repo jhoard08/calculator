@@ -1,20 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
 .calc-container {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  max-width: 50%;
+  width: 20%;
+  border: 1px solid black;
+  background-color: darkgrey;
 }
 
 .display {
-  padding: 0px 20px;
+  padding: 10px 50px;
   border: 1px solid #000;
+  margin-top: 10px;
+  background-color: white;
 }
 
 .button-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 20px;
+  margin-bottom: 1px;
 }
 
 .one {
@@ -49,21 +58,26 @@
 }
 .plus {
   order: 16;
+  background-color: coral;
 }
 .minus {
   order: 12;
+  background-color: coral;
 }
 
 .multiply {
   order: 7;
+  background-color: coral;
 }
 
 .divide {
   order: 4;
+  background-color: coral;
 }
 
 .equal {
   order: 15;
+  background-color: coral;
 }
 
 .clear {
