@@ -1,16 +1,3 @@
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
 .calc-container {
   display: flex;
   flex-flow: column;
@@ -27,6 +14,7 @@ html {
 .button-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
 }
 
 .one {
