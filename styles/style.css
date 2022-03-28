@@ -1,0 +1,83 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.calc-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+.display {
+  padding: 0px 20px;
+  border: 1px solid #000;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.one {
+  order: 8;
+}
+.two {
+  order: 9;
+}
+.three {
+  order: 11;
+}
+.four {
+  order: 5;
+}
+.five {
+  order: 5;
+}
+.six {
+  order: 6;
+}
+.seven {
+  order: 1;
+}
+.eight {
+  order: 2;
+}
+.nine {
+  order: 3;
+}
+.zero {
+  order: 13;
+}
+.plus {
+  order: 16;
+}
+.minus {
+  order: 12;
+}
+
+.multiply {
+  order: 7;
+}
+
+.divide {
+  order: 4;
+}
+
+.equal {
+  order: 15;
+}
+
+.clear {
+  order: 14;
+}
